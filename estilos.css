@@ -1,0 +1,576 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo .small-image {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    padding: 0.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+main h1 {
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+main p {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+main img {
+    display: block;
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+article {
+    margin-bottom: 2rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+article figure {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+article img {
+    width: 300px;
+    height: auto;
+}
+
+article figcaption {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+.noticia {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.noticia h2 {
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.noticia figure {
+    margin: 1rem 0;
+}
+
+.noticia-img {
+    width: 30%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.noticia figcaption {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+thead {
+    background-color: #333;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.filters select {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+article.noticia figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+
+article.noticia .ligaprofesionalarg {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #f4f4f4;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.video-container {
+    position: relative;
+    display: flex;               
+    justify-content: center; 
+    align-items: center;           
+    margin: 2rem 0;               
+}
+
+.video-container video {
+    position: absolute;             
+    top: 50%;                       
+    left: 50%;                      
+    transform: translate(-50%, -50%);
+    width: 50%;                     
+    height: auto;                 
+    border-radius: 8px;           
+}
+
+video {
+    max-width: 100%;         
+    height: auto; 
+}
+
+.semifinallibertadores {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    height: 50vh;     
+    text-align: center;
+  }
+  
+  .center-video {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+.libertadores {
+    display: flex;           
+    justify-content: flex-start;
+    gap: 100px;               
+    margin: 10;     
+    padding: 0;           
+  }
+  
+  .libertadores figure {
+    text-align: center;  
+    margin: 40;              
+    padding: 0; 
+  }
+  
+  .libertadores img {
+    width: 60%;          
+    height: auto;
+    margin: 50 auto;
+  }
+  
+  .libertadores figcaption {
+    font-size: 16px;          
+    color: #333;           
+    margin-top: 10px;      
+  }
+  
+  .juanfer {
+    padding: 20px;            
+    width: 100%;              
+    text-align: center;       
+}
+
+.juanfer figure {
+    margin: 0;              
+    padding: 0;              
+}
+
+.juanfer .juanfer {
+    width: 50%;             
+    height: auto;             
+    object-fit: cover;
+    display: inline-block;
+}
+
+.juanfer figcaption {
+    font-size: 14px;                
+    color: #555;                 
+}
+
+
+.entrevista {
+    width: 80%;                     
+    margin: 40px auto;              
+        
+    padding: 40px;                  
+    border-radius: 10px;           
+    
+}
+
+.entrevista h2 {
+    text-align: center;             
+    font-size: 32px;                 
+    color: #333;                    
+    margin-bottom: 20px;             
+}
+
+.entrevista figure {
+    text-align: center;             
+    margin: 20px 0;                  
+}
+
+.entrevista-img {
+    width: 100%;                     
+    max-width: 600px;              
+    height: auto;                   
+    border-radius: 8px;             
+    margin-bottom: 10px;            
+}
+
+.entrevista figcaption {
+    font-size: 14px;                
+    color: #666;                    
+    text-align: center;             
+    margin-top: 10px;              
+}
+
+
+.entrevista-texto {
+    font-size: 16px;                 
+    color: #444;                   
+    line-height: 1.8;               
+    margin-top: 30px;               
+}
+
+.entrevista-texto h1 {
+    font-size: 22px;                
+    color: #333;                    
+    margin-bottom: 10px;            
+    margin-top: 30px;             
+}
+
+.entrevista-texto p {
+    font-size: 16px;                
+    color: #555;                   
+    margin-bottom: 20px;          
+}
+
+.carlos {
+    width: 100%;             
+    margin: 40px auto;               
+     
+    padding: 20px;           
+    border-radius: 8px;             
+}
+
+.carlos h2 {
+    text-align: center;      
+    font-size: 28px;         
+    color: #333;                   
+    margin-bottom: 20px;          
+}
+
+.center-video {
+    display: block;             
+    margin: 0 auto;              
+    width: 30%;                  
+    max-width: 700px; 
+    height: auto;                   
+}
+
+
+.tabla {
+    text-align: center;
+  }
+  
+  .tabla h2 {
+    margin: 0;
+  }
+  
+  .tabla figure {
+    margin: 0;
+  }
+  
+  .tabla .ligaprofesionalarg {
+    display: block; 
+    margin: 0 auto; 
+  }
+
+  .somos {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .somos h2 {
+    margin: 10px 0;
+  }
+  
+  figure {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .soylucia {
+    max-width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Convierte la imagen en un bloque para poder centrarla */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+  }
+  
+
+
+footer {
+    background-color: #333;  
+    color: white;                  
+    text-align: center;              
+    padding: 20px 0;                
+    margin-top: 40px;                
+
+footer p {
+    margin: 5px 0;                   
+    font-size: 14px;               
+}
+
+footer a {
+    color: #f9f9f9;                 
+    text-decoration: none;           
+    font-weight: bold;              
+}
+
+footer a:hover {
+    color: #ff6f61;                 
+}
+
+.social-media {
+    margin-top: 10px;               
+}
+
+.social-media a {
+    color: white;                  
+    margin: 0 15px;                  
+    font-size: 16px;                
+}
+
+@media (max-width: 768px) {
+    .entrevista {
+        width: 90%;                  
+        padding: 20px;               
+    }
+
+    .entrevista h2 {
+        font-size: 28px;              
+    }
+
+    .entrevista-img {
+        max-width: 100%;             
+    }
+
+    .entrevista-texto h1 {
+        font-size: 20px;             
+    }
+
+    .entrevista-texto p {
+        font-size: 14px;            
+    }
+
+    footer p {
+        font-size: 12px;             
+    }
+
+    .social-media a {
+        font-size: 14px;             
+    }
+}
+
+
+
+  @media (max-width: 768px) { 
+    .libertadores {
+        flex-direction: column;    
+        gap: 20px;               
+        height: auto;          
+    }
+
+    .libertadores img {
+        width: 80%;    
+    }
+
+    .libertadores figure {
+        margin: 20px 0;           
+    }
+
+    .libertadores figcaption {
+        font-size: 14px;        
+    }
+}
+
+@media (max-width: 480px) {
+    .libertadores {
+        gap: 10px;              
+    }
+
+    .libertadores img {
+        width: 90%;               
+    }
+
+    .libertadores figcaption {
+        font-size: 12px;           
+    }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    article {
+        padding: 1rem;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
